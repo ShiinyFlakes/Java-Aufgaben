@@ -27,11 +27,12 @@ public class TestHausverwaltung
       boolean test3 = (miete3 == 4000.0);
       boolean test4 = (miete4 == 3000.0);
       boolean test5 = (miete5 == 2000.0);
-      
-      System.out.println(test1);
-      System.out.println(test2);
-      System.out.println(test3);
-      System.out.println(test4);
-      System.out.println(test5);
+
+      System.out.println("Gesamtmiete Wohnung 1: " + miete1 +" "+ test1);
+      System.out.println("Gesamtmiete Wohnung 2: " + miete2 +" "+ test2);
+      System.out.println("Gesamtmiete Wohnung 3: " + miete3 +" "+ test3);
+      System.out.println("Gesamtmiete Wohnung 4: " + miete4 +" "+ test4);
+      System.out.println("Gesamtmiete Wohnung 5: " + miete5 +" "+ test5);
+     
    }
 }
